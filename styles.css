@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;
+    color: white;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: #9090ff;
+}
+
+#lagayan{
+    padding: 3rem;
+    background: #5858ff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#lagayan, label, input, button{
+    margin: .5rem;
+}
+
+input{
+    outline: none;
+    padding: .2rem;
+    border: 2px solid white;
+    background: transparent;
+}
+
+button{
+    padding: .5rem;
+    border: 2px solid white;
+    background: transparent;
+}
